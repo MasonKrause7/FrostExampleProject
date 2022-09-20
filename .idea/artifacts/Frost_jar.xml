@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Frost:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Frost_jar</output-path>
+    <root id="archive" name="Frost.jar">
+      <element id="module-output" name="Frost" />
+    </root>
+  </artifact>
+</component>
