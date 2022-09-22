@@ -8,5 +8,5 @@ import java.lang.annotation.Target;
 
 @Retention(RetentionPolicy.RUNTIME)
 @Target({ElementType.METHOD,ElementType.TYPE,ElementType.CONSTRUCTOR, ElementType.FIELD})
-public @interface InjectHere {
+public @interface Inject {
 }
