@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1d217dc-a463-462a-8467-95a1f9f16d82" name="Changes" comment="ApplicationContainer now checks each class for the @component annotation&#10;If annotation is present, gets the constructors, methods, and fields of that class. &#10;Checks each constructor for the @injection annotation&#10;Gets a class[] of dependency types from the constructors parameters, then gets the dependencies constructors. &#10;Next we need to use this constructor to instantiate the object, and THEN INJECT IT BABY!!!!!">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VehicleDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VehicleDriver.java" afterDir="false" />
-    </list>
+    <list default="true" id="d1d217dc-a463-462a-8467-95a1f9f16d82" name="Changes" comment="Commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,22 +34,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/mason/OneDrive/Code",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/mason/OneDrive/Code&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -68,6 +62,7 @@
       <workItem from="1663893476812" duration="2348000" />
       <workItem from="1663897370452" duration="4107000" />
       <workItem from="1663902787022" duration="2231000" />
+      <workItem from="1663905034969" duration="717000" />
     </task>
     <task id="LOCAL-00001" summary="ApplicationContainer now checks each class for the @component annotation&#10;If annotation is present, gets the constructors, methods, and fields of that class. &#10;Checks each constructor for the @injection annotation&#10;Gets a class[] of dependency types from the constructors parameters, then gets the dependencies constructors. &#10;Next we need to use this constructor to instantiate the object, and THEN INJECT IT BABY!!!!!">
       <created>1663898603475</created>
@@ -76,7 +71,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663898603475</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Commit">
+      <created>1663905681878</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1663905681878</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,6 +97,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ApplicationContainer now checks each class for the @component annotation&#10;If annotation is present, gets the constructors, methods, and fields of that class. &#10;Checks each constructor for the @injection annotation&#10;Gets a class[] of dependency types from the constructors parameters, then gets the dependencies constructors. &#10;Next we need to use this constructor to instantiate the object, and THEN INJECT IT BABY!!!!!" />
-    <option name="LAST_COMMIT_MESSAGE" value="ApplicationContainer now checks each class for the @component annotation&#10;If annotation is present, gets the constructors, methods, and fields of that class. &#10;Checks each constructor for the @injection annotation&#10;Gets a class[] of dependency types from the constructors parameters, then gets the dependencies constructors. &#10;Next we need to use this constructor to instantiate the object, and THEN INJECT IT BABY!!!!!" />
+    <MESSAGE value="Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit" />
   </component>
 </project>
