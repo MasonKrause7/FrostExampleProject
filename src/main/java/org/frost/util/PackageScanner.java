@@ -79,7 +79,7 @@ public class PackageScanner {
          *                                 ^(appended)            ^(append up to the ".";not included)
          *       fullyQulifiedName = org.frost.util.MyClass
          */
-        String fullyQulifedName = path + "." + clasName.substring(0, clasName.lastIndexOf("."));
+        String fullyQulifedName = path + clasName.substring(0, clasName.lastIndexOf("."));//CHANGED TO TEST - Removed the "." from the middle of path and clasName
         Class classz = null;
         try {
             classz = Class.forName(fullyQulifedName);
