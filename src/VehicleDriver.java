@@ -10,7 +10,6 @@ public class VehicleDriver extends Person {
     public VehicleDriver(){
 
     }
-    public String getName(){
-        return getName();
-    }
+
+
 }
